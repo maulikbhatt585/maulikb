@@ -1,0 +1,484 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Maulik Bhatt</title>
+
+  <meta name="author" content="Maulik Bhatt">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+ <meta name="google-site-verification" content="GRbXaLJAojIU5UpT57VsHjeHBJNd0n_krp4lAkO6mIg" />
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Maulik Bhatt</name>
+              </p>
+              <p>I am a Ph.D. student in the Department of Mechanical Engineering at UC Berkeley, where I am advised by Prof <a href="https://negarmehr.com">Negar Mehr</a>. I am a part of the <a href="https://iconlab.negarmehr.com">ICON lab</a>. I started my Ph.D. at UIUC as a part of the <a href="https://csl.illinois.edu">Coordinated Science Laboratory</a>. Later, I moved to UC Berkeley with my advisor, Prof <a href="https://negarmehr.com">Negar Mehr</a>, starting in January 2024.
+              </p>
+              <p>
+                Previously, I graduated from IIT Bombay with an interdisciplinary dual degree(Bachelor's in Aerospace Engineering + Master's in Systems and Control Engineering). During my stay at IIT Bombay, I was awarded <b>Panasonic Scholarship, Undergraduate Research Award, and Technical Hostel's Commendation</b>.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:maulikbhatt@berkeley.edu">Email</a> &nbsp/&nbsp
+                <a href="data/Maulik_Bhatt_PhD_CV.pdf">CV</a> &nbsp/&nbsp
+                <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?user=O9WQVAEAAAAJ&hl=en">Google Scholar</a> &nbsp / &nbsp
+                <a href="https://twitter.com/maulik__bhatt">Twitter</a> &nbsp / &nbsp
+                <a href="https://github.com/maulikbhatt585">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/Maulik.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/Maulik_circle.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I am interested in developing autonomous robots that can work alongside humans and other robots. 
+                My research focuses on enabling agents to reason about other agents in the environment and effectively coordinate their motion. 
+                To this end, I have worked on approaches grounded in diffusion models and game theory, developing scalable algorithms that achieve real-time performance and robust multi-agent coordination. </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="partial_observe_stop()" onmouseover="partial_observe_start()">
+            <td style="padding:20px;width:25%;vertical-align:bottom">
+              <div class="one">
+                <div class="two" id='partial_observe_image'>
+                  <video  height=105pt, width=190pt muted autoplay loop>
+                <source src="images/Experiment_Video__ICRA.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                <!-- <img src='images/iros.gif', height=120pt, width=190pt> -->
+              </div>
+                <img src='images/hardware_experiement_ICRA.png', height=105pt, width=190pt>
+              </div>
+              <script type="text/javascript">
+                function partial_observe_start() {
+                  document.getElementById('partial_observe_image').style.opacity = "1";
+                }
+
+                function partial_observe_stop() {
+                  document.getElementById('partial_observe_image').style.opacity = "0";
+                }
+                partial_observe_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:100%;vertical-align:top">
+                <papertitle>Understanding and Imitating Human-Robot Motion with Restricted Visual Fields</papertitle>
+              <br>
+              <strong> Maulik Bhatt </strong>, Honghao Zhen,
+              <a href="https://me.stanford.edu/people/monroe-kennedy">Monroe Kennedy III</a>,
+              <a href="http://negar.web.illinois.edu">Negar Mehr</a>
+              <br>
+              <em>submitted to ICRA, 2025</em>
+              <br>
+  						<a href="https://arxiv.org/pdf/2410.05547">arXiv</a> /
+  						<a href="https://www.youtube.com/watch?v=EJoX-sUEX6I">video</a> /
+  						<a href="https://arm.stanford.edu/HRMotion_RestrictedView">website</a>
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>Our algorithm successfully estimates observation space of the agents and is able to imitate their behavior. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="multi_nash_start()" onmouseover="multi_nash_stop()">
+            <td style="padding:27px;width:25%;vertical-align:bottom">
+              <div class="one">
+                <!-- <div class="two" id='maximum_entropy_image'> -->
+                  <!-- <video  height=150pt, width=250pt muted autoplay loop>
+                <source src="images/ral-experiment-trimmed.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video> -->
+                <!-- <img src='images/iros.gif', height=120pt, width=190pt>
+              </div> -->
+                <img src='images/WAFR_2.png', height=105pt, width="190">
+              </div>
+              <script type="text/javascript">
+                function multi_nash_start() {
+                  document.getElementById('multi_nash_image').style.opacity = "1";
+                }
+
+                function multi_nash_stop() {
+                  document.getElementById('multi_nash_image').style.opacity = "0";
+                }
+                multi_nash_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:top">
+                <papertitle>MultiNash-PF: A Particle Filtering Approach for Computing Multiple Local Generalized Nash Equilibria in Trajectory Games</papertitle>
+              <br>
+              <strong> Maulik Bhatt </strong>, Iman Askari, Yue Yu, Ufuck Topcu, Huazhen Fang, <a href="http://negar.web.illinois.edu">Negar Mehr</a>,
+              <br>
+              <em>submitted to American Control Conference (ACC), 2025</em>
+              <br>
+  						<a href="https://arxiv.org/pdf/2410.05554">arXiv</a>
+  						<!-- <a href="https://www.youtube.com/watch?v=DmN2FNxF5Lc&t=36s">video</a> -->
+  						<!-- <a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a> -->
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>Our proposed method reduces the computation time of multi-modal equilibria upto 50%.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="maximum_entropy_stop()" onmouseover="maximum_entropy_start()">
+            <td style="padding:27px;width:25%;vertical-align:bottom">
+              <div class="one">
+                <!-- <div class="two" id='maximum_entropy_image'> -->
+                  <!-- <video  height=150pt, width=250pt muted autoplay loop>
+                <source src="images/ral-experiment-trimmed.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video> -->
+                <!-- <img src='images/iros.gif', height=120pt, width=190pt>
+              </div> -->
+                <img src='images/maximum_entropy.jpg', height=105pt>
+              </div>
+              <script type="text/javascript">
+                function maximum_entropy_start() {
+                  document.getElementById('maximum_entropy_image').style.opacity = "1";
+                }
+
+                function maximum_entropy_stop() {
+                  document.getElementById('maximum_entropy_image').style.opacity = "0";
+                }
+                maximum_entropy_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:top">
+                <papertitle>Maximum-Entropy Multi-Agent Dynamic Games: Forward and Inverse Solutions</papertitle>
+              <br>
+              <a href="http://negar.web.illinois.edu">Negar Mehr</a>,
+              Mingyu Wang, <strong> Maulik Bhatt </strong>, Mac Schwager
+              <br>
+              <em>Transactions on Robotics, 2023</em>
+              <br>
+  						<a href="https://ieeexplore.ieee.org/abstract/document/10021943">arXiv</a> /
+  						<a href="https://www.youtube.com/watch?v=DmN2FNxF5Lc&t=36s">video</a>
+  						<!-- <a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a> -->
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>We introduce the notion of noisy Nash equilibrium and provide forward solutions and inverse solutions to estimate the objectives of the agents from demonstrations.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="constrained_potential_stop()" onmouseover="constrained_potential_start()">
+            <td style="padding:20px;width:25%;vertical-align:bottom">
+              <div class="one">
+                <div class="two" id='potential_image'>
+                  <!-- <video  height=150pt, width=250pt muted autoplay loop>
+                <source src="images/ral-experiment-trimmed.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video> -->
+                <img src='images/iros.gif', height=120pt, width=190pt>
+              </div>
+                <img src='images/hardware_experiment_plot_2.jpeg', height=120pt, width=190pt>
+              </div>
+              <script type="text/javascript">
+                function constrained_potential_start() {
+                  document.getElementById('potential_image').style.opacity = "1";
+                }
+
+                function constrained_potential_stop() {
+                  document.getElementById('potential_image').style.opacity = "0";
+                }
+                constrained_potential_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:top">
+                <papertitle>Efficient Constrained Multi-Agent Trajectory Optimization using Dynamic Potential Games</papertitle>
+              <br>
+              <strong> Maulik Bhatt </strong>, Yixuan Jia,
+              <a href="http://negar.web.illinois.edu">Negar Mehr</a>
+              <br>
+              <em>IROS, 2023</em>
+              <br>
+  						<a href="https://arxiv.org/abs/2206.08963">arXiv</a> /
+  						<a href="https://www.youtube.com/watch?v=vw0NRl9zHfc&t=214s">video</a> /
+  						<a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a>
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>Our constrained trajectory planner is 20 times faster than the state-of-the-art </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="racing_stop()" onmouseover="racing_start()">
+            <td style="padding:25px;width:25%;vertical-align:bottom">
+              <div class="one">
+                <!-- <div class="two" id='racing_image'>
+                <img src='images/iros.gif', height=120pt, width=190pt>
+              </div> -->
+                <img src='images/hardware_two_player_topview.jpeg', height=90pt>
+              </div>
+              <script type="text/javascript">
+                function racing_start() {
+                  document.getElementById('racing_image').style.opacity = "1";
+                }
+
+                function racing_stop() {
+                  document.getElementById('racing_image').style.opacity = "0";
+                }
+                racing_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:top">
+                <papertitle>RAPID: Autonomous Multi-Agent Racing using Constrained Potential Dynamic Games</papertitle>
+              <br>
+              Yixuan Jia, <strong> Maulik Bhatt </strong>,
+              <a href="http://negar.web.illinois.edu">Negar Mehr</a>
+              <br>
+              <em>Eurpean Control Conference, 2023</em>
+              <br>
+  						<a href="https://arxiv.org/pdf/2305.00579.pdf">arXiv</a> /
+  						<a href="https://www.youtube.com/watch?v=9QGtAsfmG3s&t=34s">video</a> /
+  						<a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a>
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>Our algorithm outperfroms the state-of-the-art. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="pose_stop()" onmouseover="pose_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='potential_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nerf_supervision.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='images/pose.JPG' height="90%">
+              </div>
+              <script type="text/javascript">
+                function pose_start() {
+                  document.getElementById('pose_image').style.opacity = "1";
+                }
+
+                function pose_stop() {
+                  document.getElementById('pose_image').style.opacity = "0";
+                }
+                pose_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+                <papertitle>Discrete-time Rigid Body Pose Estimation based on Lagrange-d'Alembert principle</papertitle>
+              <br>
+              <strong> Maulik Bhatt </strong>,
+              <a href="https://www.sc.iitb.ac.in/~srikant/dokuwiki/doku.php/home">Srikant Sukumar</a>,
+              <a href="https://ecs.syracuse.edu/faculty-staff/amit-k-sanyal">Amit K Sanyal</a>
+              <br>
+              Journal of Nonlinear Science-
+  						<a href="https://link.springer.com/article/10.1007/s00332-022-09848-z">link</a>
+  							<!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+  						<!-- <a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a> -->
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>To the best of our knowledge, this is the first pose estimator that is proven to be almost globally asymptotically stable in discrete-time </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="attitude_stop()" onmouseover="attitude_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='potential_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nerf_supervision.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='images/attitude.png' height="100%", width=200pt>
+              </div>
+              <script type="text/javascript">
+                function attitude_start() {
+                  document.getElementById('pose_image').style.opacity = "1";
+                }
+
+                function attitude_stop() {
+                  document.getElementById('pose_image').style.opacity = "0";
+                }
+                attitude_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+                <papertitle>Asymptotically Stable Optimal Multi-rate Rigid Body Attitude Estimation based on Lagrange-d'Alembert Principle</papertitle>
+              <br>
+              <strong> Maulik Bhatt </strong>,
+              <a href="https://ecs.syracuse.edu/faculty-staff/amit-k-sanyal">Amit K Sanyal</a>,
+              <a href="https://www.sc.iitb.ac.in/~srikant/dokuwiki/doku.php/home">Srikant Sukumar</a>
+              <br>
+              Paper-1: 59th Conference on Decision and Control, 2020 - <a href="https://ieeexplore.ieee.org/document/9304059">link</a>
+              <br>
+              Paper-2: Journal of Geometric Mechanics - <a href="http://dx.doi.org/10.3934/jgm.2023004">link</a>
+              <br>
+  						<!-- <a href="https://arxiv.org/abs/2206.08960">arXiv</a> / -->
+  							<!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+  						<!-- <a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a> -->
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>To the best of our knowledge, this is the first attitude estimator that is proven to be almost globally asymptotically stable in discrete-time and considers multi-rate measurements</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="hilbert_stop()" onmouseover="hilbert_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='potential_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nerf_supervision.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='images/hilbert.png' height=130pt, width=170pt>
+              </div>
+              <script type="text/javascript">
+                function hilbert_start() {
+                  document.getElementById('pose_image').style.opacity = "1";
+                }
+
+                function hilbert_stop() {
+                  document.getElementById('pose_image').style.opacity = "0";
+                }
+                hilbert_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+                <papertitle>Modification of Hilbert's Space-Filling Curve to Avoid Obstacles: A Robotic Path-Planning Strategy</papertitle>
+              <br>
+              <a href="https://anantjoshi97.github.io/website/">Anant Joshi</a>,
+              <strong> Maulik Bhatt </strong>,
+              <a href="https://sites.google.com/iitb.ac.in/arpitasinha">Arpita Sinha</a>
+              <br>
+              6th Indian Control Conference (ICC), 2019 - <a href="https://ieeexplore.ieee.org/document/9123166">link</a>
+              <br>
+              Link to experiment videos - <a href="https://youtu.be/G7AZaYn66xA">Experiment-1</a>, <a href="https://youtu.be/75qi3zcZ_dM">Experiment-2</a>
+  						<!-- <a href="https://arxiv.org/abs/2206.08960">arXiv</a> / -->
+  							<!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+  						<!-- <a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a> -->
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>Developed an algorithm to explore an unknown region while avoiding obstacles</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="landing_stop()" onmouseover="landing_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='potential_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nerf_supervision.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='images/landing.png' height="90%">
+              </div>
+              <script type="text/javascript">
+                function landing_start() {
+                  document.getElementById('pose_image').style.opacity = "1";
+                }
+
+                function landing_stop() {
+                  document.getElementById('pose_image').style.opacity = "0";
+                }
+                landing_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+                <papertitle>Autonomous Landing of Drones on Moving Ground Vehicles</papertitle>
+              <br>
+              <strong>Maulik Bhatt</strong>,
+              <a href="https://scholar.google.ca/citations?user=j19dN6sAAAAJ&hl=en">David Saussié</a>
+              <!-- <br>
+              6th Indian Control Conference (ICC), 2019 - <a href="https://ieeexplore.ieee.org/document/9123166">link</a>
+              <br>
+              Link to experiment videos - <a href="https://youtu.be/G7AZaYn66xA">Experiment-1</a>, <a href="https://youtu.be/75qi3zcZ_dM">Experiment-2</a> -->
+  						<!-- <a href="https://arxiv.org/abs/2206.08960">arXiv</a> / -->
+  							<!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+  						<!-- <a href="https://github.com/labicon/crazyswarm-iconlab.git">code</a> -->
+  							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a> -->
+              <p></p>
+              <p>Implemented a Dynamic Image-Based Visual Servo Control technique for safe autonomous landing of drone on moving ground vehicle</p>
+            </td>
+          </tr>
+
+
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Misc</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+            <td width="75%" valign="center">
+              <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
+              <br>
+              <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Longuet-Higgins Award Committee Member, CVPR 2021</a>
+              <br>
+              <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+              <br>
+              <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/cs188.jpg" alt="cs188">
+            </td>
+            <td width="75%" valign="center">
+              <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
+              <br>
+              <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
+              <br>
+              <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td align="center" style="padding:20px;width:25%;vertical-align:middle">
+							<heading>Basically <br> Blog Posts</heading>
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
+              <br>
+              <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
+              <br>
+              <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
+            </td>
+          </tr> -->
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <heading>Hobbies</heading>
+                <p>
+                 Climbing, Hiking, Cooking, Flute
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+        </tbody></table>
+        <table style="width:25%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:middle;font-size:small;">
+                Thanks to <a href="https://jonbarron.info">Jon Barron</a> for the template.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
